@@ -1,7 +1,3 @@
-Aquí tienes el código de tu archivo CSS completamente corregido y optimizado.
-El error principal era que estabas usando las variables var(--food1) y var(--food2) en la línea 663 sin haberlas declarado al principio en tu :root. Esto causaba un fallo que impedía que los fondos de las tarjetas del menú se renderizaran correctamente. Ya las añadí con colores oscuros neón alineados a tu paleta.
-Reemplaza todo el contenido de tu archivo CSS con el siguiente bloque:
-
 :root{
   --bg:#08090d;
   --bg2:#0f1118;
@@ -1642,14 +1638,3 @@ border-radius:28px;
 font-size:2rem;
 }
 }
-
-
-<FollowUp>
-Si guardas estos cambios y los estilos siguen sin verse reflejados en tu navegador, por favor compárteme:
-* El fragmento de tu **código HTML** donde tienes la etiqueta `<link>` para verificar la ruta.
-* El **nombre exacto del archivo CSS** y en qué carpeta está guardado en tu computadora.
-
-Así podré asegurarme de que todo conecte perfectamente para el lanzamiento del proyecto de **Neon Grill**.
-</FollowUp>
-
-
